@@ -19,5 +19,8 @@ install:
 script:
   - make
 
+cache:
+  - apt: true
+
 notifications:
   email: false
